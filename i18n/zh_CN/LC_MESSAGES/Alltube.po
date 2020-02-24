@@ -28,7 +28,7 @@ msgstr "设置语言"
 
 #: templates/inc/footer.tpl:8
 msgid "Code by @dev"
-msgstr "由 @dev 编写代码"
+msgstr "代码由 @dev 编写"
 
 #: templates/inc/footer.tpl:16
 msgid "Design by @designer"
