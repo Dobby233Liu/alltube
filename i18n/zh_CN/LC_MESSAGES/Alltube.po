@@ -3,132 +3,250 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: AllTube Download\n"
 "Language: zh-CN\n"
 
-#: templates/error.tpl:6
-msgid "Please check the URL of your video."
-msgstr "请检查您的视频的 URL。"
+#: templates/playlist.tpl:13
+msgid "Videos extracted from @title:"
+msgstr "从 @title 中提取出的视频："
 
-#: templates/playlist.tpl:5
-msgid "Videos extracted from"
-msgstr "视频提取自"
-
-#: templates/playlist.tpl:7
-msgid ":"
-msgstr "："
-
-#: templates/playlist.tpl:26 templates/password.tpl:10 templates/video.tpl:83
-#: templates/video.tpl:86 templates/index.tpl:18
+#: templates/playlist.tpl:38 templates/password.tpl:11 templates/index.tpl:19
+#: templates/info.tpl:98
 msgid "Download"
 msgstr "下载"
 
-#: templates/playlist.tpl:27
+#: templates/playlist.tpl:39
 msgid "More options"
 msgstr "更多选项"
-
-#: templates/password.tpl:5
-msgid "This video is protected"
-msgstr "这个视频受保护"
-
-#: templates/password.tpl:6
-msgid "You need a password in order to download this video."
-msgstr "你需要密码才能下载这个视频。"
-
-#: templates/password.tpl:8
-msgid "Video password"
-msgstr "视频密码"
-
-#: templates/extractors.tpl:4
-msgid "Supported websites"
-msgstr "支持的网站"
-
-#: templates/video.tpl:6
-msgid "You are going to download"
-msgstr "你即将下载"
-
-#: templates/video.tpl:24
-msgid "Available formats:"
-msgstr "可用的格式︰"
-
-#: templates/video.tpl:29
-msgid "Generic formats"
-msgstr "通用格式"
-
-#: templates/video.tpl:32
-msgid "Best"
-msgstr "最佳"
-
-#: templates/video.tpl:37
-msgid "Remux best video with best audio"
-msgstr "重新封装最佳视频与最佳音频"
-
-#: templates/video.tpl:41
-msgid "Worst"
-msgstr "最差"
-
-#: templates/video.tpl:44
-msgid "Detailed formats"
-msgstr "详细格式"
-
-#: templates/inc/footer.tpl:4
-msgid "Code by"
-msgstr "代码来自"
-
-#: templates/inc/footer.tpl:6
-msgid "Design by"
-msgstr "设计来自"
-
-#: templates/inc/footer.tpl:12
-msgid "AllTube Download on Facebook"
-msgstr "去Alltube Download的Facebook页面"
-
-#: templates/inc/footer.tpl:12
-msgid "Like us on Facebook"
-msgstr "在Facebook关注我们"
-
-#: templates/inc/footer.tpl:14
-msgid "Get the code"
-msgstr "获取代码"
-
-#: templates/inc/footer.tpl:16
-msgid "Based on"
-msgstr "基于"
-
-#: templates/inc/header.tpl:21
-msgid "Share on Twitter"
-msgstr "分享到 Twitter"
-
-#: templates/inc/header.tpl:23
-msgid "Share on Facebook"
-msgstr "分享到 Facebook"
-
-#: templates/index.tpl:8
-msgid "Copy here the URL of your video (Youtube, Dailymotion, etc.)"
-msgstr "在这里复制您的视频 （Youtube、 Dailymotion 等） 的 URL"
-
-#: templates/index.tpl:23
-msgid "Audio only (MP3)"
-msgstr "仅限音频（mp3）"
-
-#: templates/index.tpl:28
-msgid "See all supported websites"
-msgstr "请参阅支持的所有网站"
-
-#: templates/index.tpl:30
-msgid "Drag this to your bookmarks bar:"
-msgstr "把这个拖到你的书签："
-
-#: templates/index.tpl:31
-msgid "Bookmarklet"
-msgstr "书签工具"
 
 #: templates/inc/header.tpl:4
 msgid "Switch language"
 msgstr "切换语言"
 
+#: templates/inc/header.tpl:8
+msgid "Set language"
+msgstr "设置语言"
+
+#: templates/inc/footer.tpl:8
+msgid "Code by @dev"
+msgstr "由 @dev 编写代码"
+
+#: templates/inc/footer.tpl:16
+msgid "Design by @designer"
+msgstr "由 @designer 设计"
+
+#: templates/inc/footer.tpl:21
+msgid "Get the code"
+msgstr "获取代码"
+
+#: templates/inc/footer.tpl:29
+msgid "Based on @youtubedl"
+msgstr "基于 @youtubedl"
+
+#: templates/inc/footer.tpl:33
+msgid "Donate using Liberapay"
+msgstr "使用 Liberapay 捐赠"
+
+#: templates/inc/footer.tpl:35
+msgid "Donate"
+msgstr "捐赠"
+
+#: templates/password.tpl:5
+msgid "This video is protected"
+msgstr "此视频被保护"
+
+#: templates/password.tpl:6
+msgid "You need a password in order to download this video."
+msgstr "您需要密码以下载此视频。"
+
+#: templates/password.tpl:8
+msgid "Video password"
+msgstr "视频密码"
+
+#: templates/index.tpl:8
+msgid "Copy here the URL of your video (Youtube, Dailymotion, etc.)"
+msgstr "将您的视频的 URL 粘贴到这里（Youtube，Dailymotion等等）"
+
+#: templates/index.tpl:25
+msgid "Audio only (MP3)"
+msgstr "仅音频（MP3）"
+
+#: templates/index.tpl:28
+msgid "From"
+msgstr "从"
+
+#: templates/index.tpl:29
+msgid "to"
+msgstr "到"
+
+#: templates/index.tpl:36
+msgid "See all supported websites"
+msgstr "查看所有被支持的网站"
+
+#: templates/index.tpl:38
+msgid "Drag this to your bookmarks bar:"
+msgstr "将此书签拖到您的书签栏里："
+
+#: templates/index.tpl:39
+msgid "Bookmarklet"
+msgstr "书签"
+
+#: templates/info.tpl:13
+msgid "You are going to download @title."
+msgstr "您将要下载 @title："
+
+#: templates/info.tpl:31
+msgid "Available formats:"
+msgstr "可用格式："
+
+#: templates/info.tpl:33
+msgid "Generic formats"
+msgstr "通用格式"
+
+#: templates/info.tpl:38
+msgid "Detailed formats"
+msgstr "详细格式"
+
+#: templates/info.tpl:80
+msgid "Stream the video through the server"
+msgstr "通过服务器流式传输视频"
+
+#: templates/info.tpl:85
+msgid "Convert into a custom format:"
+msgstr "转换为一个自定义格式："
+
+#: templates/info.tpl:86
+msgid "Custom format"
+msgstr "自定义格式"
+
+#: templates/info.tpl:86
+msgid "Format to convert to"
+msgstr "要转换到的格式"
+
+#: templates/info.tpl:91
+msgid "with"
+msgstr "，并附带"
+
+#: templates/info.tpl:92
+msgid "Bit rate"
+msgstr "比特率为"
+
+#: templates/info.tpl:93
+msgid "Custom bitrate"
+msgstr "自定义比特率"
+
+#: templates/info.tpl:95
+msgid "kbit/s audio"
+msgstr "kbit/s 的音频"
+
 #: templates/error.tpl:5
 msgid "An error occurred"
-msgstr "出错了"
+msgstr "发生了一个错误"
 
+#: templates/error.tpl:6
+msgid "Please check the URL of your video."
+msgstr "请检查您的视频的 URL。"
+
+#: templates/extractors.tpl:4 controllers/FrontController.php:109
+msgid "Supported websites"
+msgstr "被支持的网站"
+
+#: classes/Config.php:158
+msgid "Best"
+msgstr "最佳"
+
+#: classes/Config.php:159
+msgid "Remux best video with best audio"
+msgstr "将最佳视频与最佳音频重新混合"
+
+#: classes/Config.php:160
+msgid "Worst"
+msgstr "最差"
+
+#: classes/Video.php:159
+msgid "Wrong password"
+msgstr "密码错误"
+
+#: classes/Video.php:250
+msgid "youtube-dl returned an empty URL."
+msgstr "youtube-dl 返回了一个空白的 URL。"
+
+#: classes/Video.php:361 classes/Video.php:465
+msgid "Can't find avconv or ffmpeg at @path."
+msgstr "在 @path 里没有找到 avconv 或 ffmpeg。"
+
+#: classes/Video.php:377
+msgid "Invalid start time: @from."
+msgstr "开始时间不合规：@from。"
+
+#: classes/Video.php:384
+msgid "Invalid end time: @to."
+msgstr "结束时间不合规：@from。"
+
+#: classes/Video.php:430
+msgid "Conversion of playlists is not supported."
+msgstr "不支持播放列表的转化。"
+
+#: classes/Video.php:435 classes/Video.php:578
+msgid "Conversion of M3U8 files is not supported."
+msgstr "不支持 M3U8 文件的转化。"
+
+#: classes/Video.php:437
+msgid "Conversion of DASH segments is not supported."
+msgstr "不支持 DASH 片段的转化。"
+
+#: classes/Video.php:446 classes/Video.php:488 classes/Video.php:525
+#: classes/Video.php:558 classes/Video.php:586
+msgid "Could not open popen stream."
+msgstr "无法打开 popen 流。"
+
+#: classes/Video.php:506
+msgid "This video does not have two URLs."
+msgstr "此视频不包含两个 URL。"
+
+#: controllers/DownloadController.php:215
+msgid "You need to enable remux mode to merge two formats."
+msgstr "您需要启用重新混合模式以合并两个格式。"
+
+#: controllers/DownloadController.php:255
+msgid "Can't find URL of video."
+msgstr "找不到视频的 URL。"
+
+#: controllers/FrontController.php:64
+msgid ""
+"Easily download videos from Youtube, Dailymotion, Vimeo and other websites."
+msgstr ""
+"轻易地从 Youtube，Dailymotion，Vimeo等网站下载视频。"
+
+#: controllers/FrontController.php:110
+msgid ""
+"List of all supported websites from which Alltube Download can extract video "
+"or audio files"
+msgstr ""
+"Alltube Download 能够提取音频或视频文件的"
+"被支持网站列表"
+
+#: controllers/FrontController.php:136
+msgid "Password prompt"
+msgstr "密码提示符"
+
+#: controllers/FrontController.php:138
+msgid ""
+"You need a password in order to download this video with Alltube Download"
+msgstr ""
+"您需要密码以通过 Alltube Download 下载此视频"
+
+#: controllers/FrontController.php:169
+msgid "Video download"
+msgstr "视频下载"
+
+#: controllers/FrontController.php:171
+msgid "Download video from @extractor"
+msgstr "从 @extractor 下载视频"
+
+#: controllers/FrontController.php:177
+msgid "Download @title from @extractor"
+msgstr "从 @extractor 下载 @title"
+
+#: controllers/FrontController.php:253 controllers/FrontController.php:284
+msgid "Error"
+msgstr "错误"
