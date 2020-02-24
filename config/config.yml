@@ -1,0 +1,15 @@
+---
+# True to enable audio conversion
+convert: true
+
+# True to enable advanced conversion mode
+convertAdvanced: true
+
+# True to stream videos through server
+stream: ask
+
+# True to enable remux mode (merge best audio and best video)
+remux: true
+
+# App name
+appName: AllTube Download (Dobby233Liu ver.)
