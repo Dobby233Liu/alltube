@@ -13,3 +13,5 @@ remux: true
 
 # App name
 appName: AllTube Download (Dobby233Liu ver.)
+
+avconv: /app/vendor/ffmpeg/ffmpeg
