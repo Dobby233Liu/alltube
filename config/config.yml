@@ -14,7 +14,7 @@ remux: true
 # App name
 appName: AllTube Download (Dobby233Liu ver.)
 
-avconv: /app/vendor/_jon/ffmpeg/ffmpeg
+avconv: ffmpeg
 #prevent "is a directory"
 
 debug: true
