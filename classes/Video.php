@@ -330,9 +330,6 @@ class Video
     {
         $process = new Process($command);
         $process->run();
-        echo($process->getOutput());
-        echo($process->getErrorOutput());
-        if($process->isSuccessful()) {echo("avconv success");} else {echo("avconv unsucessful");}
 
         return $process->isSuccessful();
     }
