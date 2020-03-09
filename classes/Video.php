@@ -357,7 +357,7 @@ class Video
         $from = null,
         $to = null
     ) {
-        if (!$this->checkCommand([$this->config->avconv])) {
+        if (!$this->checkCommand([$this->config->avconv,'-version'])) {
             throw new Exception(
                 $this->localeManager->t(
                     "Can't find avconv or ffmpeg at @path.",
@@ -461,7 +461,7 @@ class Video
      */
     public function getM3uStream()
     {
-        if (!$this->checkCommand([$this->config->avconv])) {
+        if (!$this->checkCommand([$this->config->avconv,"-version"])) {
             throw new Exception(
                 $this->localeManager->t(
                     "Can't find avconv or ffmpeg at @path.",
