@@ -354,7 +354,7 @@ class Video
         $from = null,
         $to = null
     ) {
-        if (!$this->checkCommand([$this->config->avconv, '-version'])) {
+        if (!$this->checkCommand([$this->config->avconv, '-v'])) {
             throw new Exception(
                 $this->localeManager->t(
                     "Can't find avconv or ffmpeg at @path.",
