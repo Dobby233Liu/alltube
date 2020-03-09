@@ -330,6 +330,10 @@ class Video
     {
         $process = new Process($command);
         $process->run();
+        while ($process->isRunning()) {
+            // try 3: wait for the command to complete
+            // it will success once we delayed enough
+        }
 
         return $process->isSuccessful();
     }
