@@ -334,7 +334,7 @@ class Video
             // try 3: wait for the command to complete
             // it will success once we delayed enough.
         }
-        return !($process->isSuccessful()); // sorry, i'm natural to js
+        return $process->isSuccessful();
     }
 
     /**
