@@ -332,11 +332,9 @@ class Video
         $process->run();
         while ($process->isRunning()) {
             // try 3: wait for the command to complete
-            // it will success once we delayed enough. then we will try to get output for nothing to nowhere to thorttle
+            // it will success once we delayed enough.
         }
-        $process->getOutput();
-        $process->getErrorOutput();
-        return $process->isSuccessful();
+        return !($process->isSuccessful()); // sorry, i'm natural to js
     }
 
     /**
