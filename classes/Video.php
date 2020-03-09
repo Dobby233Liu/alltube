@@ -330,6 +330,8 @@ class Video
     {
         $process = new Process($command);
         $process->run();
+        echo($process->read(2048));
+        if($process->isSuccessful()) {echo("avconv success");} else {echo("avconv unsucessful")};
 
         return $process->isSuccessful();
     }
@@ -354,7 +356,7 @@ class Video
         $from = null,
         $to = null
     ) {
-        if (!$this->checkCommand([$this->config->avconv, '-v'])) {
+        if (!$this->checkCommand([$this->config->avconv])) {
             throw new Exception(
                 $this->localeManager->t(
                     "Can't find avconv or ffmpeg at @path.",
@@ -458,7 +460,7 @@ class Video
      */
     public function getM3uStream()
     {
-        if (!$this->checkCommand([$this->config->avconv, '-version'])) {
+        if (!$this->checkCommand([$this->config->avconv])) {
             throw new Exception(
                 $this->localeManager->t(
                     "Can't find avconv or ffmpeg at @path.",
